@@ -13,11 +13,15 @@ The project provides two main functions:
 - Creates a categorical bar plot with Seaborn (`sns.catplot`) showing distributions split by cardio.
 - Saves the plot as `catplot.png`.
 
+![alt text](catplot.png)
+
 ### 2. draw_heat_map()
 - Cleans the dataset by removing inconsistent blood pressure readings and extreme height/weight values.
 - Computes the correlation matrix of all numerical features.
 - Generates a heatmap with Seaborn (`sns.heatmap`), masking the upper triangle.
 - Saves the plot as `heatmap.png`.
+
+![alt text](heatmap.png)
 
 ## Files
 
